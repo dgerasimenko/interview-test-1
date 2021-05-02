@@ -61,9 +61,11 @@ public class App {
     public static void main(String[] args) {
         if (args == null || args.length == 0) {
             System.err.println("Please specify input file!");
+            return;
         }
         if (args.length > 1) {
             System.err.println("Wrong number of input parameters!");
+            return;
         }
         long start = System.currentTimeMillis();
         System.out.println("Start text processing...");
