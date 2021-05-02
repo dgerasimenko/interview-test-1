@@ -1,1 +1,1 @@
-# interview-test-1
+Please specify file path as a program argument. e.g: java App ../big.txt
